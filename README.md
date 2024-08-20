@@ -13,8 +13,6 @@ If this code is used for any research purpose, please cite our IJCNN’22 paper 
   booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, 
   title={Multi-Virtual-Agent Reinforcement Learning for a Stochastic Predator-Prey Grid Environment}, 
   year={2022},
-  volume={},
-  number={},
   pages={1-8},
   keywords={Learning systems;Q-learning;Monte Carlo methods;Heuristic algorithms;Computational modeling;Neural networks;Games;Reinforcement learning;multiple virtual agents;generalization problem;dynamic environment and parallel learning},
   doi={10.1109/IJCNN55064.2022.9891898}}
