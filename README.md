@@ -24,4 +24,16 @@ This is a predator-prey game with a size of 6×9. Areas 1, 2, and 3 are where a 
 
 ![9891898-fig-2-source-small](https://github.com/user-attachments/assets/ade13d04-b17e-429e-8413-4d750d09401f)
 
-We initially choose $α=1,γ= 0.9, N_{trials}=50, and N_{episodes}=5000$. To eliminate the effect of random results, we implemented 50 trials and averaged the results. In this code, ε=0.1.
+We initially choose $α=1,γ= 0.9, N_{trials}=50, and N_{episodes}=5000$. To eliminate the effect of random results, we implemented 50 trials and averaged the results. In this code, ε=0.1. 
+
+This is the heatmap of the Q table under the setting. The q-table has 6×9=54 spaces, and each space has four sub-spaces. Every four sub-spaces stand for four actions' q-values in this space, which are up, down, left, and right. The global agent will choose the action with the biggest q-value (highlighted in green color) as its actual action from four directions in each space. Therefore, it will find a way to go through Area 3, which has the minimum probability of losing the game.
+
+![9891898-fig-4-source-small](https://github.com/user-attachments/assets/ee1d472c-68b0-4f02-bec1-7e14db4d2c5a)
+
+To choose the optimal parameter of ε-greedy, there are two kinds of experiments. One is to choose ε fixed; the other is to choose ε variable according to the number of episodes, which means ε=ε/τ where τ is the declining rate. For the first choice, our experiment chooses ε=0.01/0.1/0.3/0.6/0.8. For the second choice, our experiment chooses initial ε=1, τ=1.1, ε declines every k episodes, where k varies from 5 to 80.
+
+The results are shown in the figure below.
+![9891898-fig-3-source-large](https://github.com/user-attachments/assets/7231d691-c735-4968-8973-6bdb7a2596c3)
+
+
+
