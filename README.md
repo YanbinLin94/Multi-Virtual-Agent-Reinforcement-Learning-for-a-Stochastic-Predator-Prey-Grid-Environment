@@ -21,4 +21,7 @@ If this code is used for any research purpose, please cite our IJCNN’22 paper 
 ```
 ## Case Study
 This is a predator-prey game with a size of 6×9. Area 1, Area 2, and Area 3 are where a predator is likely to occur. S is the start space, and g is the goal space. The grey ones are wall spaces.
+
 ![9891898-fig-2-source-small](https://github.com/user-attachments/assets/ade13d04-b17e-429e-8413-4d750d09401f)
+
+we initially choose $α=1,γ= 0.9, N_trials=50, and N_episodes=5000$. To eliminate the effect of random results, we implement 50 trials and averaged the results.
