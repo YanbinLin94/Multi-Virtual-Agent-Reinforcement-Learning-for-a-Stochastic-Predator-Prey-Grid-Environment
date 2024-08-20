@@ -35,7 +35,7 @@ def immediateReward(state,action,lose):
 def maxAction(state,Q):
     Qs=[(action,Q[(state,action)]) for action in actions]
     action_max = max(Qs, key=lambda x:x[1])
-    index = [j for j,x in enumerate(Qs) if x[1] == action_max[1]] #很大的改动
+    index = [j for j,x in enumerate(Qs) if x[1] == action_max[1]]
     if len(index) == 1:
         return action_max[0]
     else:
