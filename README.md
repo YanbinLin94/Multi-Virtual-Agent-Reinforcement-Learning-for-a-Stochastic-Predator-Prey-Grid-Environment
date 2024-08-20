@@ -7,7 +7,7 @@ You can read the paper at this link: https://ieeexplore.ieee.org/stamp/stamp.jsp
 ## **Citation**
 This code is provided for academic training.
 If this code is used for any research purpose, please cite our IJCNN’22 paper below.
-'''
+```
 @INPROCEEDINGS{9891898,
   author={Lin, Yanbin and Ni, Zhen and Zhong, Xiangnan},
   booktitle={2022 International Joint Conference on Neural Networks (IJCNN)}, 
