@@ -42,7 +42,14 @@ We provide the data of the first choice, which is named as "Q_learning_M3-P4321-
 pip install numpy
 pip install pandas
 ```
-
+## **Experiments**
+```
+run .py
+```
+or
+```
+run MVARL.ipynb
+```
 
 
 
