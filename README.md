@@ -37,7 +37,7 @@ The results are shown in the figure below.
 
 We provide the data of the first choice, which is named as "Q_learning_M3-P4321-eps0.01-50runs5000episode.csv". The epsilon varies from 0.01 to 0.8. For the data of the second choice, you can change the value of k to generate data (which is the discount in our code).
 
-## **Environment Set**
+## **Environment Setup**
 ```
 pip install numpy
 pip install pandas
