@@ -44,12 +44,13 @@ pip install pandas
 ```
 ## **Experiments**
 ```
-run .py
+run Q-learning_M3-eps0.1-P4321.py.py
 ```
 or
 ```
 run MVARL.ipynb
 ```
+You can change the value of epsilon by yourself to generate different Q-tables with different epsilons or directly use the data we generated.
 
 
 
