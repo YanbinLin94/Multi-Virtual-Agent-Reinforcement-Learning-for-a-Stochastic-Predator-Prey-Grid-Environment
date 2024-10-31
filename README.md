@@ -50,7 +50,13 @@ or
 ```
 run MVARL.ipynb
 ```
-You can change the value of epsilon by yourself to generate different Q-tables with different epsilons or directly use the data we generated.
+You can change the value of epsilon by yourself to generate results with different epsilons or directly use the data we generated.
+
+## **Plot**
+```
+run plot_fig-eps0.01--0.8-P4321.py
+run plot_fig-eps-STEP-boxplot.py
+```
 
 
 
