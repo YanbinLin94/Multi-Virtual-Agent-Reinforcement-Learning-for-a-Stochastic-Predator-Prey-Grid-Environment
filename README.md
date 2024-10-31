@@ -28,6 +28,7 @@ This is the heatmap of the Q table under the setting. The q-table has 6×9=54 sp
 
 ![9891898-fig-4-source-small](https://github.com/user-attachments/assets/ee1d472c-68b0-4f02-bec1-7e14db4d2c5a)
 
+## **Experiments**
 To choose the optimal parameter of ε-greedy, there are two kinds of experiments. 
 
 One is to choose ε fixed; the other is to choose ε variable according to the number of episodes, which means ε=ε/τ where τ is the declining rate. For the first choice, our experiment chooses ε=0.01/0.1/0.3/0.6/0.8. For the second choice, our experiment chooses initial ε=1, τ=1.1, ε declines every k episodes, where k varies from 5 to 80.
@@ -42,7 +43,7 @@ We provide the data of the first choice, which is named as "Q_learning_M3-P4321-
 pip install numpy
 pip install pandas
 ```
-## **Experiments**
+## **Run Experiments**
 ```
 run Q-learning_M3-eps0.1-P4321.py.py
 ```
