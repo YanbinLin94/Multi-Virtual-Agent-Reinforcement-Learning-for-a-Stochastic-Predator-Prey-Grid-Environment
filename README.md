@@ -36,7 +36,9 @@ One is to choose ε fixed; the other is to choose ε variable according to the n
 The results are shown in the figure below.
 ![9891898-fig-3-source-large](https://github.com/user-attachments/assets/7231d691-c735-4968-8973-6bdb7a2596c3)
 
-We provide the data of the first choice, which is named as "Q_learning_M3-P4321-eps0.01-50runs5000episode.csv". The epsilon varies from 0.01 to 0.8. For the data of the second choice, you can change the value of k to generate data (which is the discount in our code).
+We provide the data of the first choice, which is named as "Q_learning_M3-P4321-eps0.01-50runs5000episode.csv". The epsilon varies from 0.01 to 0.8. 
+
+For the data of the second choice, you can change the value of k to generate data (which is the discount in our code).
 
 ## **Environment Setup**
 ```
