@@ -196,7 +196,8 @@ if __name__ == '__main__':
     actions = ['up','down','left','right'] # define the actions
     discount = 0.9 # discount rate
     wall = [(1, 2), (2, 2), (3, 2), (4, 5)]  # define walls' positions
-    prob_predator = [0.4, 0.7, 0.9, 1]  # the probability of predator appears in the area 1,2,3 and no appears
+    # The probability of predator appearing in areas 1,2,3 and not appear
+    prob_predator = [0.4, 0.7, 0.9, 1]  
     predator1 = [(0, 6), (0, 7)] # area 1
     predator2 = [(1, 6), (1, 7)] # area 2
     predator3 = [(1, 8), (2, 8)] # area 3
