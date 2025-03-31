@@ -44,21 +44,22 @@ For the data of the second choice, you can change the value of k to generate dat
 ```
 pip install numpy
 pip install pandas
+pip install matplotlib
 ```
 ## **Run Experiments**
 ```
-run Q-learning_M3-eps0.1-P4321.py.py
+python Q-learning_M3-eps0.1-P4321.py.py
 ```
-or
+or run the following jupyter notebook on Google Colab
 ```
-run MVARL.ipynb
+MVARL.ipynb
 ```
 You can change the value of epsilon by yourself to generate results with different epsilons or directly use the data we generated.
 
 ## **Plot**
 ```
-run plot_fig-eps0.01--0.8-P4321.py
-run plot_fig-eps-STEP-boxplot.py
+python plot_fig-eps0.01--0.8-P4321.py
+python plot_fig-eps-STEP-boxplot.py
 ```
 
 
