@@ -93,7 +93,7 @@ make this comment uncomment and delete eps = 0.1 in the code.
 
 (2) 5 average step files: Step_M3-P4321-eps5.csv, Step_M3-P4321-eps10.csv, Step_M3-P4321-eps30.csv, Step_M3-P4321-eps50.csv, Step_M3-P4321-eps80.csv
 
-4. Merge 5 average step files into one CSV file: Step_M3-P4321-eps5-10-30-50-80.csv
+3. Merge 5 average step files into one CSV file: Step_M3-P4321-eps5-10-30-50-80.csv
 
 ## **Task 4**
 1. Plot the result figure (c) using plot_fig-eps0.01--0.8-P4321.py (need to modify the corresponding CSV file name) and 5 win probability CSV files.
@@ -102,6 +102,22 @@ make this comment uncomment and delete eps = 0.1 in the code.
 
 ## **Task 5**
 Try to change the walls' position, predator probability, and predator areas' position.
+
+Find the lines in the code:
+```
+wall = [(1, 2), (2, 2), (3, 2), (4, 5)]  # define walls' positions
+```
+
+```
+prob_predator = [0.4, 0.7, 0.9, 1] 
+```
+
+```
+predator1 = [(0, 6), (0, 7)] # area 1
+predator2 = [(1, 6), (1, 7)] # area 2
+predator3 = [(1, 8), (2, 8)] # area 3
+```
+
 
 
 
