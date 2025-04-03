@@ -63,6 +63,39 @@ python plot_fig-eps-STEP-boxplot.py
 ```
 
 ## **Task 1**
+1. run Q-learning_M3-eps0.1-P4321.py, change the value of ε to 0.01/0.1/0.3/0.6/0.8, and generate corresponding CSV files.
+You need to generate 10 CSV files:
+(1) 5 win probability files: Q_learning_M3-P4321-eps0.01-50runs5000episode.csv, Q_learning_M3-P4321-eps0.1-50runs5000episode.csv, Q_learning_M3-P4321-eps0.3-50runs5000episode.csv, Q_learning_M3-P4321-eps0.6-50runs5000episode.csv, and Q_learning_M3-P4321-eps0.8-50runs5000episode.csv.
+(2) 5 average step files: Step_M3-P4321-eps0.01.csv, Step_M3-P4321-eps0.1.csv, Step_M3-P4321-eps0.3.csv, Step_M3-P4321-eps0.6.csv, Step_M3-P4321-eps0.8.csv
+
+2. Merge 5 average step files into one CSV file: Step_M3-P4321-eps0.01-0.1-0.3-0.6-0.8.csv (Please refer to this file in the folder).
+ 
+## **Task 2**
+1. Plot the result figure (a) using plot_fig-eps0.01--0.8-P4321.py and 5 win probability CSV files.
+2. Plot the result figure (b) using plot_fig-eps-STEP-boxplot.py and Step_M3-P4321-eps0.01-0.1-0.3-0.6-0.8.csv.
+
+## **Task 3**
+1. change code to make ε decline every k episodes, where k varies from [5,10,30,50,80]. The code is written as comments:
+```
+   # case 2
+        if ((episode+1) % k) == 0:
+            eps = eps / 1.1
+```
+make this comment uncomment and delete eps = 0.1 in the code.
+2. change k to 5, 10, 30, 50, 80 to generate:
+(1) 5 win probability files: Q-learning_M3-eps5-P4321.py, Q-learning_M3-eps10-P4321.py, Q-learning_M3-eps30-P4321.py, Q-learning_M3-eps50-P4321.py, and Q-learning_M3-eps80-P4321.py. 
+(2) 5 average step files: Step_M3-P4321-eps5.csv, Step_M3-P4321-eps10.csv, Step_M3-P4321-eps30.csv, Step_M3-P4321-eps50.csv, Step_M3-P4321-eps80.csv
+
+3. Merge 5 average step files into one CSV file: Step_M3-P4321-eps5-10-30-50-80.csv
+
+## **Task 4**
+1. Plot the result figure (c) using plot_fig-eps0.01--0.8-P4321.py (need to modify the corresponding CSV file name) and 5 win probability CSV files.
+2. Plot the result figure (d) using plot_fig-eps-STEP-boxplot.py and Step_M3-P4321-eps5-10-30-50-80.csv.
+
+## **Task 5**
+Try to change the walls' position, predator probability, and predator areas' position.
+
+
 
 
 
